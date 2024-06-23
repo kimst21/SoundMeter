@@ -29,9 +29,9 @@ constexpr double MIC_REF_AMPL = pow(10, double(MIC_SENSITIVITY)/20) * ((1<<(MIC_
 // SCK(예: BCLK) 및 WS(예: L/R CLK)는 출력 가능 핀이어야 합니다.
 //
 // 아래는 제 보드 레이아웃의 예시일 뿐이며, 여기에 사용할 핀을 넣으세요.
-#define I2S_WS            45
-#define I2S_SCK           18
-#define I2S_SD            1 
+#define I2S_WS            46
+#define I2S_SCK           45
+#define I2S_SD            41 
 
 // 사용할 I2S 주변 장치(0 또는 1)
 #define I2S_PORT          I2S_NUM_0
